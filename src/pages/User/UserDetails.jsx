@@ -9,18 +9,22 @@ const UserDetails = () => {
   };
 
   return (
-    <div className="p-8 max-w-[250px] bg-white mt-0 sm:mr-0 mr-9  ">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+    <div className="p-8 max-w-[250px] bg-white mt-0  ">
+      <h2 className="text-2xl font-bold text-gray-800  mr-1 mb-6 text-center  ">
         User Details
       </h2>
-      <div className="space-y-4">
+      <div className="sm:space-y-4 space-y-1">
         <div className="flex items-center">
           <span className="font-semibold text-gray-800 w-24">Name :</span>
           <span className="text-gray-600  ml-[-39px]">{user.name}</span>
         </div>
         <div className="flex items-center">
-          <span className="font-semibold text-gray-800 w-24">Email :</span>
-          <span className="text-gray-600"> {user.email}</span>
+          <p className="font-semibold text-gray-800 ">Email: </p> 
+      {/* Only for mobile */}
+          {/* <div> */}
+            <br className="sm:hidden " />   
+            <p className="text-gray-600 sm:ml-2 mt-1 sm:mt-0  ml-[9px] text-base sm:overflow-visible overflow-x-scroll sm:w-full " > {user.email}</p>
+          {/* </div> */}
         </div>
       </div>
     </div>
