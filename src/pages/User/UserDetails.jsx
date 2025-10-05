@@ -20,11 +20,9 @@ const UserDetails = () => {
         </div>
         <div className="flex items-center">
           <p className="font-semibold text-gray-800 ">Email: </p> 
-      {/* Only for mobile */}
-          {/* <div> */}
-            <br className="sm:hidden " />   
-            <p className="text-gray-600 sm:ml-2 mt-1 sm:mt-0  ml-[9px] text-base sm:overflow-visible overflow-x-scroll sm:w-full " > {user.email}</p>
-          {/* </div> */}
+         
+            <p className="text-gray-600 sm:ml-2 mt-1 sm:mt-0  ml-[9px] text-base sm:overflow-visible overflow-x-scroll " > {user.email}</p>
+       
         </div>
       </div>
     </div>
