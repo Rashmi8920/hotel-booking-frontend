@@ -10,7 +10,7 @@ const navbarMenu = [
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-800  text-white w-[12rem] sm:w-[15rem] h-full min-h-[28rem] border-r border-gray-700 sm:ml-0 ml-6">
+    <div className="bg-gray-800  text-white w-[12rem] sm:w-[15rem] h-full min-h-[28rem] border-r border-gray-700 sm:ml-0 ml-6 p-1">
       <nav className="flex flex-col p-5 space-y-4">
         {navbarMenu.map((item) => (
           <Link
