@@ -99,11 +99,11 @@ const Register = () => {
             Register
           </button>
         </form>
-        <p className="text-center mt-6 text-sm text-gray-700">
+       <p className="text-center mt-6 text-sm text-gray-700">
           Already have an account?{" "}
-          <a href="/login" className="text-blue-500 hover:underline">
+          <Link to="/login" className="text-blue-500 hover:underline">
             Login
-          </a>
+          </Link>
         </p>
       </div>
     </div>
