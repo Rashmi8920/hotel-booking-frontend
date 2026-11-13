@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { useNavigate,Link} from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const Register = () => {
   const [name, setName] = useState("");
@@ -50,7 +50,7 @@ const Register = () => {
   };
 
   return (
-    <div className="flex items-center justify-center  pt-10 pb-10">
+    <div className="flex items-center justify-center pt-10 pb-10">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-center mb-6">Sign up</h2>
 
@@ -99,7 +99,7 @@ const Register = () => {
             Register
           </button>
         </form>
-       <p className="text-center mt-6 text-sm text-gray-700">
+        <p className="text-center mt-6 text-sm text-gray-700">
           Already have an account?{" "}
           <Link to="/login" className="text-blue-500 hover:underline">
             Login
