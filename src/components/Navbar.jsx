@@ -46,7 +46,8 @@ const Navbar = () => {
   };
 
   return (
-    {/* Yahan md:px-6 add kiya hai taaki desktop par dono taraf se spacing mil jaye */}
+    <>
+  
     <nav className="flex items-center justify-between p-3 md:px-6 sm:m-2 bg-white shadow-md sticky top-0 z-50">
       {/* Brand Logo */}
       <div className="flex items-center space-x-2">
@@ -219,6 +220,7 @@ const Navbar = () => {
         )}
       </div>
     </nav>
+      </>
   );
 };
 
