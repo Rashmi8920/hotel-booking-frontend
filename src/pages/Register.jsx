@@ -50,6 +50,7 @@ const Register = () => {
   };
 
   return (
+    <>
     <div className="flex items-center justify-center pt-10 pb-10">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-center mb-6">Sign up</h2>
@@ -107,6 +108,7 @@ const Register = () => {
         </p>
       </div>
     </div>
+      </>
   );
 };
 
